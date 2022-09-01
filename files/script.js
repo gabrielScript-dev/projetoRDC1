@@ -11,7 +11,7 @@ const keysThirdRow = ["Z", "X", "C", "V", "B", "N", "M"];
 const listaDePalavras = ["LETRA", "SABER", "HONRA", "TERMO", "MUNDO"];
 let random = Math.floor(Math.random() * listaDePalavras.length);
 let palavra = listaDePalavras[random];
-//console.log(palavra);
+console.log(palavra);
 
 const rows = 6;
 const columns = 5;
@@ -62,11 +62,13 @@ const checkGuess = () => {
   }
 
   if(guess === palavra) {
-      window.alert("tu é demais, simplesmente o detetivao do entreterimento!")
+      window.alert("Parabéns! Você acertou!");
+      document.location.reload(true);
       return
   } {
       if(currentRow === rows -1) {
           window.alert("Errrrrrou!")
+          document.location.reload(true);
       } else {
           moveToNextRow()
       }
