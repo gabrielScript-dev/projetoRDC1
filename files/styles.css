@@ -85,7 +85,7 @@
 }
 
 .keyboard-row-container.notAlphabetic {
-    width:100%
+    width:100%;
 }
 
 .keyboard-row-container:not(.notAlphabetic) button {
