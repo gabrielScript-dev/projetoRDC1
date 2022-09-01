@@ -35,7 +35,7 @@ class ServidorWeb:
             else:
                 arquivo = open('./files' + requisicao).read()
         except:
-            return 'HTTP/1.0 404 NOT FOUND\n\nFile Not Found'
+            return 'HTTP/1.1 404 NOT FOUND\n\nFile Not Found'
         
         response_header = 'HTTP/1.1 200 OK\r\n'
         
