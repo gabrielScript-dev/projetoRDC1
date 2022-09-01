@@ -5,8 +5,11 @@ import gc
 
 gc.collect()
 
-ssid = 'MADMAN_iDnet985635188'
-password = 'qwe122448'
+#nome da rede
+ssid = ''
+
+#senha da rede
+password = ''
 
 wifi = network.WLAN(network.STA_IF)
 wifi.active(True)
