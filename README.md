@@ -8,4 +8,4 @@ Projeto sobre arquitetura cliente-servidor, utilizando sistema embarcado nodeMCU
 
 <h2>Sobre o MicroPython</h2>
 
-<p><a href="https://micropython.org/">MicroPython</a> é uma implementação simples e eficiente da linguagem de programação Python 3, que inclui um pequeno subconjunto da biblioteca padrão Python,  otimizado para funcionar em microcontroladores e em ambientes restritos.</p>
+<p align="justify"><a href="https://micropython.org/">MicroPython</a> é uma implementação simples e eficiente da linguagem de programação Python 3, que inclui um pequeno subconjunto da biblioteca padrão Python,  otimizado para funcionar em microcontroladores e em ambientes restritos.</p>
