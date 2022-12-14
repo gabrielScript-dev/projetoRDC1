@@ -3,7 +3,7 @@ Projeto sobre arquitetura cliente-servidor, utilizando sistema embarcado nodeMCU
 
 <h2>Sobre o NodeMCU ESP8266</h2>
 
-<p>O NodeMCU é uma plataforma de código (open source) e hardware aberto (open hardware) da família ESP8266, criado para ser utilizado no desenvolvimento de projetos na filosifa IoT (Internet of Things).</p> 
+<p align="justify">O NodeMCU é uma plataforma de código (open source) e hardware aberto (open hardware) da família ESP8266, criado para ser utilizado no desenvolvimento de projetos na filosifa IoT (Internet of Things).</p> 
 <p>
 
 <h2>Sobre o MicroPython</h2>
